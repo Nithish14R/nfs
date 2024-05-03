@@ -8,7 +8,7 @@ spec:
   volumes:
   - name: html-files
     hostPath:
-      path: /home/vagrant/code/motoShop-petProject/src/main/ui/public  # Path to your HTML files on the host machine
+      path: /home/vagrant/code/motoShop-petProject/src/main/ui  # Path to your HTML files on the host machine
   containers:
   - name: node-app
     image: node:alpine
